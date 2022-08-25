@@ -21,13 +21,19 @@ Route::get('/', function () {
     return view('comics-page', $data);
 })->name('comics-page');
 
-// Route::get('/series', function () {
-//     $series_array = config('comics');
-//     dd($series_array);
+Route::get('/series/{id}', function ($id) {
+    $series_array = config('comics');
+    $current_series = [];
 
-//     $data = [
-//         $series_array
-//     ];
+    foreach($series_array as $item) {
+        if($item['id'] == $id) {
+            $current_series = $item;
+        }
+    }
 
-//     return view('series', $data);
-// })->name('series');
+    $data = [
+        'current_series' => $current_series,
+    ];
+
+    return view('series-info', $data);
+})->name('series_info');

@@ -1,8 +1,6 @@
-main {
-    color: $dc-font-primary-color;
-    
     .series {
         background-color: $dc-main-primary-color;
+        color: $dc-font-primary-color;
 
         .container {
             padding: 40px 0;
@@ -60,6 +58,7 @@ main {
     
     .main-links {
         background-color: $dc-main-secondary-color;
+        color: $dc-font-primary-color;
         padding: 40px 0;
     
         .container {
@@ -92,4 +91,3 @@ main {
             }
         }
     }
-}

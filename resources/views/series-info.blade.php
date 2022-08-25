@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('main_content')
-    ciao sono lista prodotti
+    <h1>info prodotto</h1>
 @endsection
