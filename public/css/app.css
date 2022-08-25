@@ -55,43 +55,41 @@ header .header-bottom .flex ul li {
 
 .jumbo {
   height: 350px;
-  background-image: url("../../../public/images/jumbotron.jpg");
+  background-image: url("../images/jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-main {
+.series {
+  background-color: #1c1c1c;
   color: #ffffff;
 }
-main .series {
-  background-color: #1c1c1c;
-}
-main .series .container {
+.series .container {
   padding: 40px 0;
   position: relative;
 }
-main .series .container .btn {
+.series .container .btn {
   background-color: #0282f9;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
 }
-main .series .container .current-series-text {
+.series .container .current-series-text {
   position: absolute;
   top: -16px;
   left: 0;
   padding: 7px 18px;
 }
-main .series .container .card-container {
+.series .container .card-container {
   display: flex;
   flex-wrap: wrap;
 }
-main .series .container .card-container .card {
+.series .container .card-container .card {
   padding: 10px;
   width: calc(16.6666666667% - 5px);
   margin: 0 auto;
 }
-main .series .container .card-container .card img {
+.series .container .card-container .card img {
   width: 100%;
   aspect-ratio: 1/1;
   -o-object-fit: cover;
@@ -100,42 +98,44 @@ main .series .container .card-container .card img {
      object-position: top;
   margin: 15px 0;
 }
-main .series .container .card-container .card h3 {
+.series .container .card-container .card h3 {
   font-size: 0.7rem;
   text-transform: uppercase;
   font-weight: 400;
 }
-main .series .container .center {
+.series .container .center {
   text-align: center;
 }
-main .series .container .center .load-more {
+.series .container .center .load-more {
   padding: 7px 40px;
   font-size: 12px;
 }
-main .main-links {
+
+.main-links {
   background-color: #0282f9;
+  color: #ffffff;
   padding: 40px 0;
 }
-main .main-links .container {
+.main-links .container {
   width: 75%;
 }
-main .main-links .container ul {
+.main-links .container ul {
   align-items: center;
   justify-content: space-between;
 }
-main .main-links .container ul a {
+.main-links .container ul a {
   align-content: center;
 }
-main .main-links .container ul a img {
+.main-links .container ul a img {
   height: 45px;
   margin-right: 8px;
 }
-main .main-links .container ul a span {
+.main-links .container ul a span {
   line-height: 45px;
   font-size: 11px;
   text-transform: uppercase;
 }
-main .main-links .container ul li:last-child img {
+.main-links .container ul li:last-child img {
   padding-top: 5px;
   width: 50px;
   height: auto;
