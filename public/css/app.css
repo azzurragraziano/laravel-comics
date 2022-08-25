@@ -1,3 +1,142 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap);* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: lightblue;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  text-transform: uppercase;
+}
+header .header-top {
+  background-color: #0282f9;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.7rem;
+  padding-block: 5px;
+}
+header .header-top span:first-child {
+  padding-right: 50px;
+}
+header .header-bottom .flex {
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-bottom .flex img {
+  width: 65px;
+}
+header .header-bottom .flex ul li {
+  margin: 0 10px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.jumbo {
+  height: 350px;
+  background-image: url("../../../public/images/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  color: #ffffff;
+}
+main .series {
+  background-color: #1c1c1c;
+}
+main .series .container {
+  padding: 40px 0;
+  position: relative;
+}
+main .series .container .btn {
+  background-color: #0282f9;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+main .series .container .current-series-text {
+  position: absolute;
+  top: -16px;
+  left: 0;
+  padding: 7px 18px;
+}
+main .series .container .card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .series .container .card-container .card {
+  padding: 10px;
+  width: calc(16.6666666667% - 5px);
+  margin: 0 auto;
+}
+main .series .container .card-container .card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin: 15px 0;
+}
+main .series .container .card-container .card h3 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+main .series .container .center {
+  text-align: center;
+}
+main .series .container .center .load-more {
+  padding: 7px 40px;
+  font-size: 12px;
+}
+main .main-links {
+  background-color: #0282f9;
+  padding: 40px 0;
+}
+main .main-links .container {
+  width: 75%;
+}
+main .main-links .container ul {
+  align-items: center;
+  justify-content: space-between;
+}
+main .main-links .container ul a {
+  align-content: center;
+}
+main .main-links .container ul a img {
+  height: 45px;
+  margin-right: 8px;
+}
+main .main-links .container ul a span {
+  line-height: 45px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+main .main-links .container ul li:last-child img {
+  padding-top: 5px;
+  width: 50px;
+  height: auto;
 }
