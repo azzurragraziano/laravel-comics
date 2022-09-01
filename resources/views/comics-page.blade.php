@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('page_title')
+    comics
+@endsection
+
 @section('main_content')
     <section class="series">
         <div class="container">

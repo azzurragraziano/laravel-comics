@@ -1,0 +1,137 @@
+.comics-info {
+
+    .blue-bg {
+        height: 80px;
+        width: 100%;
+        background-color: $dc-main-secondary-color;
+    }
+
+    .thumb {
+        position: relative;
+
+        img {
+            position: absolute;
+            bottom: 25px;
+        }
+
+        .label {
+            position: absolute;
+            background-color: #00a9d9;
+            text-align: center;
+            text-transform: uppercase;
+            color: $dc-font-primary-color;
+            font-size: 0.9rem;
+
+            &#comic-book {
+                bottom: 299px;
+                width: 91px;
+            }
+    
+            &#view-gallery {
+                bottom: 25px;
+                width: 192px;
+            }
+        }
+    }
+
+    .comics-info-top {
+        margin-bottom: 5rem;
+
+        .row {
+            .left-col {
+                width: 65%;
+
+                h1 {
+                    margin: 70px 0 40px;
+                    text-transform: uppercase;
+                    font-family: 'Roboto Condensed', sans-serif;
+                    color: #003f5e;
+                }
+        
+                .price-and-info {
+                    background-color: #55ba59;
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 14px;
+                    padding: 10px 20px;
+                    border-bottom: 1px solid black;
+                    margin-bottom: 20px;
+        
+                    #price {
+                        padding-right: 100px;
+                        color: $dc-font-primary-color;
+
+                        span {
+                            color: #a8f98e;
+                        }
+                    }
+        
+                    #available {
+                        padding-inline: 90px 10px;
+                        text-transform: uppercase;
+                        color: #a8f98e;
+                    }
+        
+                    #check {
+                        border-left: 1px solid #000000;
+                        padding: 10px 20px;
+                        color: $dc-font-primary-color;
+
+                        i {
+                            font-size: 10px;
+                            vertical-align: super;
+                        }
+                    }
+                }
+
+                .description {
+                    margin-top: 30px;
+                    color: #003f5e;
+                }
+            }
+
+            .right-col {
+                width: 35%;
+                
+                div {
+                    text-align: right;
+                    margin-top: 70px;
+                }
+            }
+        }
+    }
+
+    .comics-info-bottom {
+        background-color: #f6f6f6;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+
+        .row {
+            justify-content: space-between;
+
+            .col {
+                width: 47%;
+                
+                h3 {
+                    margin-block: 1.5rem;
+                }
+        
+                ul {
+                    
+                    .flex {
+                        padding-block: 0.7rem;
+                        border-top: 1px solid lightgray;
+        
+                        h4 {
+                            width: 25%;
+                        }
+        
+                        span {
+                            width: 75%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
